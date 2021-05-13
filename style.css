@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#app{
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 5px #333 Solid;
+}
+.male{
+    border-color: steelblue;
+    background-color: steelblue;
+}
+.female{
+    border-color: palevioletred;
+    background-color: palevioletred;
+}
+button{
+    cursor: pointer;
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 1rem 1.5rem;
+}
